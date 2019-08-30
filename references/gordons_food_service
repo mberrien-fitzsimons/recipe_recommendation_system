@@ -1,0 +1,183 @@
+ailes = [100491, 100490, 100493, 100495, 100489, 100492, 100497, 100487, 100494, 100496,
+100488, 100438, 100442, 100437, 100439, 100444, 100441, 100440, 100445, 100436, 100435, 100443,
+100466, 100463, 100469, 100468, 100465, 100470, 100467, 100464,
+100354, 100353, 100355, 100352, 100350, 100486, 100485, 100482, 100483, 100481, 100480, 100484,
+100426, 100424, 100421, 100418, 100420, 100425, 100423, 100416, 100422, 100419, 100415,
+100477, 100474, 100472, 100476, 100473, 100479, 100471, 100478, 100475, 100455, 100453, 100451, 100452, 100454,
+100358, 100357, 100360, 100356, 100359, 100517, 100516, 100514, 100513, 100518, 100507, 100506, 100511, 100512, 100515, 100510,
+100413, 100410, 100411, 100412, 100414, 100431, 100434, 100432, 100433, 100429, 100430, 100427, 100428, 100402, 100403, 100401,
+100408, 100406, 100407, 100409
+]
+
+Frozen
+https://www.instacart.com/store/gfs/departments/18980
+https://www.instacart.com/store/gfs/departments/18980/aisles/100491
+https://www.instacart.com/store/gfs/departments/18980/aisles/100490
+https://www.instacart.com/store/gfs/departments/18980/aisles/100493
+https://www.instacart.com/store/gfs/departments/18980/aisles/100495
+https://www.instacart.com/store/gfs/departments/18980/aisles/100489
+https://www.instacart.com/store/gfs/departments/18980/aisles/100492
+https://www.instacart.com/store/gfs/departments/18980/aisles/100497
+https://www.instacart.com/store/gfs/departments/18980/aisles/100487
+https://www.instacart.com/store/gfs/departments/18980/aisles/100494
+https://www.instacart.com/store/gfs/departments/18980/aisles/100496
+https://www.instacart.com/store/gfs/departments/18980/aisles/100488
+
+100491, 100490, 100493, 100495, 100489, 100492, 100497, 100487, 100494, 100496, 100488
+
+Snacks
+https://www.instacart.com/store/gfs/departments/18973
+https://www.instacart.com/store/gfs/departments/18973/aisles/100438
+https://www.instacart.com/store/gfs/departments/18973/aisles/100442
+https://www.instacart.com/store/gfs/departments/18973/aisles/100437
+https://www.instacart.com/store/gfs/departments/18973/aisles/100439
+https://www.instacart.com/store/gfs/departments/18973/aisles/100444
+https://www.instacart.com/store/gfs/departments/18973/aisles/100441
+https://www.instacart.com/store/gfs/departments/18973/aisles/100440
+https://www.instacart.com/store/gfs/departments/18973/aisles/100445
+https://www.instacart.com/store/gfs/departments/18973/aisles/100436
+https://www.instacart.com/store/gfs/departments/18973/aisles/100435
+https://www.instacart.com/store/gfs/departments/18973/aisles/100443
+
+100438, 100442, 100437, 100439, 100444, 100441, 100440, 100445, 100436, 100435, 100443
+
+Beverages
+https://www.instacart.com/store/gfs/departments/18977
+https://www.instacart.com/store/gfs/departments/18977/aisles/100466
+https://www.instacart.com/store/gfs/departments/18977/aisles/100463
+https://www.instacart.com/store/gfs/departments/18977/aisles/100469
+https://www.instacart.com/store/gfs/departments/18977/aisles/100468
+https://www.instacart.com/store/gfs/departments/18977/aisles/100465
+https://www.instacart.com/store/gfs/departments/18977/aisles/100470
+https://www.instacart.com/store/gfs/departments/18977/aisles/100467
+https://www.instacart.com/store/gfs/departments/18977/aisles/100464
+
+100466, 100463, 100469, 100468, 100465, 100470, 100467, 100464
+
+Produce
+https://www.instacart.com/store/gfs/departments/18963
+https://www.instacart.com/store/gfs/departments/18963/aisles/100354
+https://www.instacart.com/store/gfs/departments/18963/aisles/100353
+https://www.instacart.com/store/gfs/departments/18963/aisles/100355
+https://www.instacart.com/store/gfs/departments/18963/aisles/100352
+https://www.instacart.com/store/gfs/departments/18963/aisles/100350
+
+100354, 100353, 100355, 100352, 100350
+
+Meat & Seafood
+https://www.instacart.com/store/gfs/departments/18979
+https://www.instacart.com/store/gfs/departments/18979/aisles/100486
+https://www.instacart.com/store/gfs/departments/18979/aisles/100485
+https://www.instacart.com/store/gfs/departments/18979/aisles/100482
+https://www.instacart.com/store/gfs/departments/18979/aisles/100483
+https://www.instacart.com/store/gfs/departments/18979/aisles/100481
+https://www.instacart.com/store/gfs/departments/18979/aisles/100480
+https://www.instacart.com/store/gfs/departments/18979/aisles/100484
+
+100486, 100485, 100482, 100483, 100481, 100480, 100484
+
+Pantry
+https://www.instacart.com/store/gfs/departments/18971
+https://www.instacart.com/store/gfs/departments/18971/aisles/100426
+https://www.instacart.com/store/gfs/departments/18971/aisles/100424
+https://www.instacart.com/store/gfs/departments/18971/aisles/100421
+https://www.instacart.com/store/gfs/departments/18971/aisles/100418
+https://www.instacart.com/store/gfs/departments/18971/aisles/100420
+https://www.instacart.com/store/gfs/departments/18971/aisles/100425
+https://www.instacart.com/store/gfs/departments/18971/aisles/100423
+https://www.instacart.com/store/gfs/departments/18971/aisles/100416
+https://www.instacart.com/store/gfs/departments/18971/aisles/100422
+https://www.instacart.com/store/gfs/departments/18971/aisles/100419
+https://www.instacart.com/store/gfs/departments/18971/aisles/100415
+
+100426, 100424, 100421, 100418, 100420, 100425, 100423, 100416, 100422, 100419, 100415
+
+Dairy & Eggs
+https://www.instacart.com/store/gfs/departments/18978
+https://www.instacart.com/store/gfs/departments/18978/aisles/100477
+https://www.instacart.com/store/gfs/departments/18978/aisles/100474
+https://www.instacart.com/store/gfs/departments/18978/aisles/100472
+https://www.instacart.com/store/gfs/departments/18978/aisles/100476
+https://www.instacart.com/store/gfs/departments/18978/aisles/100473
+https://www.instacart.com/store/gfs/departments/18978/aisles/100479
+https://www.instacart.com/store/gfs/departments/18978/aisles/100471
+https://www.instacart.com/store/gfs/departments/18978/aisles/100478
+https://www.instacart.com/store/gfs/departments/18978/aisles/100475
+
+100477, 100474, 100472, 100476, 100473, 100479, 100471, 100478, 100475
+
+Bakery
+https://www.instacart.com/store/gfs/departments/18975
+https://www.instacart.com/store/gfs/departments/18975/aisles/100455
+https://www.instacart.com/store/gfs/departments/18975/aisles/100453
+https://www.instacart.com/store/gfs/departments/18975/aisles/100451
+https://www.instacart.com/store/gfs/departments/18975/aisles/100452
+https://www.instacart.com/store/gfs/departments/18975/aisles/100454
+
+100455, 100453, 100451, 100452, 100454
+
+Deli
+https://www.instacart.com/store/gfs/departments/18964
+https://www.instacart.com/store/gfs/departments/18964/aisles/100358
+https://www.instacart.com/store/gfs/departments/18964/aisles/100357
+https://www.instacart.com/store/gfs/departments/18964/aisles/100360
+https://www.instacart.com/store/gfs/departments/18964/aisles/100356
+https://www.instacart.com/store/gfs/departments/18964/aisles/100359
+
+100358, 100357, 100360, 100356, 100359
+
+Bulk
+https://www.instacart.com/store/gfs/departments/18982
+https://www.instacart.com/store/gfs/departments/18982/aisles/100517
+https://www.instacart.com/store/gfs/departments/18982/aisles/100516
+https://www.instacart.com/store/gfs/departments/18982/aisles/100514
+https://www.instacart.com/store/gfs/departments/18982/aisles/100513
+https://www.instacart.com/store/gfs/departments/18982/aisles/100518
+https://www.instacart.com/store/gfs/departments/18982/aisles/100507
+https://www.instacart.com/store/gfs/departments/18982/aisles/100506
+https://www.instacart.com/store/gfs/departments/18982/aisles/100511
+https://www.instacart.com/store/gfs/departments/18982/aisles/100512
+https://www.instacart.com/store/gfs/departments/18982/aisles/100515
+https://www.instacart.com/store/gfs/departments/18982/aisles/100510
+
+100517, 100516, 100514, 100513, 100518, 100507, 100506, 100511, 100512, 100515, 100510
+
+Canned Goods
+https://www.instacart.com/store/gfs/departments/18970
+https://www.instacart.com/store/gfs/departments/18970/aisles/100413
+https://www.instacart.com/store/gfs/departments/18970/aisles/100410
+https://www.instacart.com/store/gfs/departments/18970/aisles/100411
+https://www.instacart.com/store/gfs/departments/18970/aisles/100412
+https://www.instacart.com/store/gfs/departments/18970/aisles/100414
+
+100413, 100410, 100411, 100412, 100414
+
+Dry Goods & Pasta
+https://www.instacart.com/store/gfs/departments/18972
+https://www.instacart.com/store/gfs/departments/18972/aisles/100431
+https://www.instacart.com/store/gfs/departments/18972/aisles/100434
+https://www.instacart.com/store/gfs/departments/18972/aisles/100432
+https://www.instacart.com/store/gfs/departments/18972/aisles/100433
+https://www.instacart.com/store/gfs/departments/18972/aisles/100429
+https://www.instacart.com/store/gfs/departments/18972/aisles/100430
+https://www.instacart.com/store/gfs/departments/18972/aisles/100427
+https://www.instacart.com/store/gfs/departments/18972/aisles/100428
+
+100431, 100434, 100432, 100433, 100429, 100430, 100427, 100428
+
+International
+https://www.instacart.com/store/gfs/departments/18968
+https://www.instacart.com/store/gfs/departments/18968/aisles/100402
+https://www.instacart.com/store/gfs/departments/18968/aisles/100403
+https://www.instacart.com/store/gfs/departments/18968/aisles/100401
+
+100402, 100403, 100401
+
+Breakfast
+https://www.instacart.com/store/gfs/departments/18969
+https://www.instacart.com/store/gfs/departments/18969/aisles/100408
+https://www.instacart.com/store/gfs/departments/18969/aisles/100406
+https://www.instacart.com/store/gfs/departments/18969/aisles/100407
+https://www.instacart.com/store/gfs/departments/18969/aisles/100409
+
+100408, 100406, 100407, 100409
