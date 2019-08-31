@@ -1,0 +1,147 @@
+hmart_ailes = [20333, 20336, 20332, 20334, 22439, 20323, 20325, 20326, 20328, 20330, 22440, 22441, 22444, 22446,
+20415, 20414, 20416, 20413, 20409, 20411, 22451, 20419, 20422, 20420, 20424, 20417, 22452, 22448, 22447, 22449,
+20449, 20450, 20451, 20448, 20445, 20447, 20446, 22450, 22453, 22454, 22455, 22456, 22678, 22679,
+20337, 20338, 20342, 20341, 20340, 20337, 20338, 20342, 20341, 20340, 20454, 20455, 20457, 20458, 20461, 20456,
+20402, 20399, 20408, 20400, 20401, 20405, 20397, 20398, 20404, 20403, 20407, 20464, 20465, 20466, 20463, 22460, 22461, 22462,
+22459, 22458, 22457, 20395, 20396, 20392, 20394, 20393, 20390, 20388]
+
+Produce
+https://www.instacart.com/store/hmart/departments/2565
+https://www.instacart.com/store/hmart/departments/2565/aisles/20333
+https://www.instacart.com/store/hmart/departments/2565/aisles/20336
+https://www.instacart.com/store/hmart/departments/2565/aisles/20332
+https://www.instacart.com/store/hmart/departments/2565/aisles/20334
+
+20333, 20336, 20332, 20334
+
+Frozen
+https://www.instacart.com/store/hmart/departments/2564
+https://www.instacart.com/store/hmart/departments/2564/aisles/22439
+https://www.instacart.com/store/hmart/departments/2564/aisles/20323
+https://www.instacart.com/store/hmart/departments/2564/aisles/20325
+https://www.instacart.com/store/hmart/departments/2564/aisles/20326
+https://www.instacart.com/store/hmart/departments/2564/aisles/20328
+https://www.instacart.com/store/hmart/departments/2564/aisles/20330
+https://www.instacart.com/store/hmart/departments/2564/aisles/22440
+https://www.instacart.com/store/hmart/departments/2564/aisles/22441
+https://www.instacart.com/store/hmart/departments/2564/aisles/22444
+https://www.instacart.com/store/hmart/departments/2564/aisles/22446
+
+22439, 20323, 20325, 20326, 20328, 20330, 22440, 22441, 22444, 22446
+
+Dry Goods & Ramen
+https://www.instacart.com/store/hmart/departments/2574/aisles/20415
+https://www.instacart.com/store/hmart/departments/2574/aisles/20414
+https://www.instacart.com/store/hmart/departments/2574/aisles/20416
+https://www.instacart.com/store/hmart/departments/2574/aisles/20413
+https://www.instacart.com/store/hmart/departments/2574/aisles/20409
+https://www.instacart.com/store/hmart/departments/2574/aisles/20411
+
+20415, 20414, 20416, 20413, 20409, 20411
+
+Snacks
+https://www.instacart.com/store/hmart/departments/2575/aisles/22451
+https://www.instacart.com/store/hmart/departments/2575/aisles/20419
+https://www.instacart.com/store/hmart/departments/2575/aisles/20422
+https://www.instacart.com/store/hmart/departments/2575/aisles/20420
+https://www.instacart.com/store/hmart/departments/2575/aisles/20424
+https://www.instacart.com/store/hmart/departments/2575/aisles/20417
+https://www.instacart.com/store/hmart/departments/2575/aisles/22452
+
+22451, 20419, 20422, 20420, 20424, 20417, 22452
+
+Refrigerated
+https://www.instacart.com/store/hmart/departments/2813/aisles/22448
+https://www.instacart.com/store/hmart/departments/2813/aisles/22447
+https://www.instacart.com/store/hmart/departments/2813/aisles/22449
+
+22448, 22447, 22449
+
+Beverages
+https://www.instacart.com/store/hmart/departments/2579/aisles/20449
+https://www.instacart.com/store/hmart/departments/2579/aisles/20450
+https://www.instacart.com/store/hmart/departments/2579/aisles/20451
+https://www.instacart.com/store/hmart/departments/2579/aisles/20448
+https://www.instacart.com/store/hmart/departments/2579/aisles/20445
+https://www.instacart.com/store/hmart/departments/2579/aisles/20447
+https://www.instacart.com/store/hmart/departments/2579/aisles/20446
+https://www.instacart.com/store/hmart/departments/2579/aisles/22450
+
+20449, 20450, 20451, 20448, 20445, 20447, 20446, 22450
+
+Cooking Mixes & Sauces
+https://www.instacart.com/store/hmart/departments/2814/aisles/22453
+https://www.instacart.com/store/hmart/departments/2814/aisles/22454
+https://www.instacart.com/store/hmart/departments/2814/aisles/22455
+https://www.instacart.com/store/hmart/departments/2814/aisles/22456
+https://www.instacart.com/store/hmart/departments/2814/aisles/22678
+https://www.instacart.com/store/hmart/departments/2814/aisles/22679
+
+22453, 22454, 22455, 22456, 22678, 22679
+
+Deli
+https://www.instacart.com/store/hmart/departments/2566/aisles/20337
+https://www.instacart.com/store/hmart/departments/2566/aisles/20338
+https://www.instacart.com/store/hmart/departments/2566/aisles/20342
+https://www.instacart.com/store/hmart/departments/2566/aisles/20341
+https://www.instacart.com/store/hmart/departments/2566/aisles/20340
+
+20337, 20338, 20342, 20341, 20340
+
+Dairy & Eggs
+https://www.instacart.com/store/hmart/departments/2580/aisles/20454
+https://www.instacart.com/store/hmart/departments/2580/aisles/20455
+https://www.instacart.com/store/hmart/departments/2580/aisles/20457
+https://www.instacart.com/store/hmart/departments/2580/aisles/20458
+https://www.instacart.com/store/hmart/departments/2580/aisles/20461
+https://www.instacart.com/store/hmart/departments/2580/aisles/20456
+
+20454, 20455, 20457, 20458, 20461, 20456
+
+Pantry
+https://www.instacart.com/store/hmart/departments/2573/aisles/20402
+https://www.instacart.com/store/hmart/departments/2573/aisles/20399
+https://www.instacart.com/store/hmart/departments/2573/aisles/20408
+https://www.instacart.com/store/hmart/departments/2573/aisles/20400
+https://www.instacart.com/store/hmart/departments/2573/aisles/20401
+https://www.instacart.com/store/hmart/departments/2573/aisles/20405
+https://www.instacart.com/store/hmart/departments/2573/aisles/20397
+https://www.instacart.com/store/hmart/departments/2573/aisles/20398
+https://www.instacart.com/store/hmart/departments/2573/aisles/20404
+https://www.instacart.com/store/hmart/departments/2573/aisles/20403
+https://www.instacart.com/store/hmart/departments/2573/aisles/20407
+
+20402, 20399, 20408, 20400, 20401, 20405, 20397, 20398, 20404, 20403, 20407
+
+Meat & Seafood
+https://www.instacart.com/store/hmart/departments/2581/aisles/20464
+https://www.instacart.com/store/hmart/departments/2581/aisles/20465
+https://www.instacart.com/store/hmart/departments/2581/aisles/20466
+https://www.instacart.com/store/hmart/departments/2581/aisles/20463
+https://www.instacart.com/store/hmart/departments/2581/aisles/22460
+https://www.instacart.com/store/hmart/departments/2581/aisles/22461
+https://www.instacart.com/store/hmart/departments/2581/aisles/22462
+
+20464, 20465, 20466, 20463, 22460, 22461, 22462
+
+Ready to Eat
+https://www.instacart.com/store/hmart/departments/2815/aisles/22459
+https://www.instacart.com/store/hmart/departments/2815/aisles/22458
+https://www.instacart.com/store/hmart/departments/2815/aisles/22457
+
+22459, 22458, 22457
+
+Canned Goods
+https://www.instacart.com/store/hmart/departments/2572/aisles/20395
+https://www.instacart.com/store/hmart/departments/2572/aisles/20396
+https://www.instacart.com/store/hmart/departments/2572/aisles/20392
+https://www.instacart.com/store/hmart/departments/2572/aisles/20394
+https://www.instacart.com/store/hmart/departments/2572/aisles/20393
+
+20395, 20396, 20392, 20394, 20393
+
+Breakfast
+https://www.instacart.com/store/hmart/departments/2571/aisles/20390
+https://www.instacart.com/store/hmart/departments/2571/aisles/20388
+
+20390, 20388
