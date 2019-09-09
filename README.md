@@ -1,4 +1,4 @@
-# Project Name
+# Flatiron School Capstone Project
 
 #### -- Project Status: [Active, On-Hold, Completed]
 
