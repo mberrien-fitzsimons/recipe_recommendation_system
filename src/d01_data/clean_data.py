@@ -218,3 +218,48 @@ def intermediate_clean_recipes_sr(sr_recipes_raw):
     recipe_sr_full_final['link_food'] = link_food_new
 
     return recipe_sr_full_final
+
+
+def intermediate_clean_marianos_prices(groceries):
+    '''
+    clean concatenated marianos prices dataframes to intermediate
+    '''
+    item_size = groceries['item_size']
+    per_lb_final = []
+    per_lb_pattern = r'\d*\.[0-9]{2}\/lb'
+    for item in item_size:
+        try:
+            per_lb_final.append(re.search(per_lb_pattern, item).group())
+        except:
+            per_lb_final.append(np.nan)
+
+    # MEASURE WORDS
+    measure_word_pattern = 'each'
+    measure_word_list = []
+    for item in item_size:
+        try:
+            measure_word_list.append(re.search(measure_word_pattern, item).group())
+        except:
+            measure_word_list.append(np.nan)
+
+    groceries.rename(columns={'unit_price':'main_price'}, inplace=True)
+
+    # ITEM WEIGHT COUNT VOL
+    item_weight_count_vol = []
+    for item in item_size:
+        try:
+            item_weight_count_vol.append(re.search('aria-label=\"\.(.*)\">\d+', item).group(1))
+        except:
+            item_weight_count_vol.append(np.nan)
+
+    groceries.drop(columns=['item_size'], inplace=True)
+
+    # MAKE NEW DATAFRAME
+    groceries['price_per_lb'] = per_lb_final
+    groceries['measure_words_main_price'] = measure_word_list
+    groceries['item_weight_count_vol'] = item_weight_count_vol
+    groceries['date_collected'] = '2019-08-28'
+    groceries['store'] = 'Marianos'
+    groceries['location'] = '60615'
+
+    return groceries
