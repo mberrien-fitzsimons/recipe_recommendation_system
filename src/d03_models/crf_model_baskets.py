@@ -21,6 +21,10 @@ sys.path.append(src_dir)
 
 from d00_utils.utils import singularize, word2features, extract_features, get_labels
 
+# A function for extracting features in documents
+def extract_features(doc):
+    return [word2features(doc, i) for i in range(len(doc))]
+
 def product_tagger(product_sentence_tokens, product_label_sentence):
     pre = []
     food = []
@@ -28,11 +32,11 @@ def product_tagger(product_sentence_tokens, product_label_sentence):
 
     for word, label in zip(product_sentence_tokens, product_label_sentence):
         if label == 'pre':
-            pre.append(str(word).lower())
+            pre.append(word.lower())
         if label == 'food':
-            food.append(word)
+            food.append(word.lower())
         if label == 'post':
-            post.append(str(word).lower())
+            post.append(word.lower())
     return {'pre': " ".join(pre), 'food': " ".join(food), 'post': " ".join(post)}
 
 def token_labels_to_dict(tokens, labels, titles):
@@ -40,8 +44,8 @@ def token_labels_to_dict(tokens, labels, titles):
     for token, label, title in zip(tokens, labels, titles):
         prod = product_tagger(token, label)
         final_dict[str(title).lower()] = prod
-        # final_dict[str(title)] = prod
     return final_dict
+
 def food_label_finder(token_list, label_list):
     pre = []
     food = []
@@ -56,11 +60,7 @@ def food_label_finder(token_list, label_list):
             post.append(word.lower())
     return " ".join(food)
 
-# A function for extracting features in documents
-def extract_features(doc):
-    return [word2features(doc, i) for i in range(len(doc))]
-
-def crf_model_basket_tagger(instacart_baskets):
+def crf_basket_feature_creation(instacart_baskets):
     instacart_baskets.drop(columns = ['add_to_cart_order', 'reordered', 'aisle_id',
                         'department_id', 'aisle', 'eval_set', 'order_number',
                         'order_dow', 'order_hour_of_day'], inplace=True)
@@ -79,6 +79,7 @@ def crf_model_basket_tagger(instacart_baskets):
 
     # let's tokenize all the words and get rid of punctuation
     tokenizer = RegexpTokenizer(r'(\d\/\d |\w+)')
+
     token_sr = []
     for product in products_list:
         token_sr.append(tokenizer.tokenize(product))
@@ -90,17 +91,16 @@ def crf_model_basket_tagger(instacart_baskets):
 
     X = [extract_features(doc) for doc in crf_data]
 
-    tagger = pycrfsuite.Tagger()
-    tagger.open('../../data/04_models/crf_instacart_products_final.model')
+    return [X, token_sr, products_list]
 
-    y_pred = [tagger.tag(xseq) for xseq in X]
+def crf_basket_dataset_creation(token_sr, labels, products_list, baskets):
 
-    final_dict = token_labels_to_dict(token_sr, y_pred, products_list)
+    final_dict = token_labels_to_dict(token_sr, labels, products_list)
 
     prod_list_new = []
-    for token, label in zip(token_sr, y_pred):
+    for token, label in zip(token_sr, labels):
         prod_list_new.append(food_label_finder(token, label))
 
-    instacart_baskets_food['new_prod_list'] = prod_list_new
+    baskets['new_prod_list'] = prod_list_new
 
-    return instacart_baskets_food
+    return baskets
