@@ -1,9 +1,9 @@
 # Your Personal Cookbook: Recipe Recommendation Engine
 
-#### -- Project Status: [Active, On-Hold, Completed]
+#### -- Project Status: [Active]
 
 ## Project Intro/Objective
-The purpose of this project is to use machine learning that powers an application that recommends new menu items based on foods you already love as well as items similar to them.
+The purpose of this project is to use machine learning to power an application that recommends new menu items based on foods you already love as well as similair items.
 
 ### Collaborators
 |Name     |  Github Page   |  Personal Website  |
@@ -11,16 +11,19 @@ The purpose of this project is to use machine learning that powers an applicatio
 |Misha Berrien | [mishaberrien](https://github.com/mishaberrien)| [www.mishaberrien.com](https://mishaberrien.com/)  |
 
 ### Methods Used
-* Inferential Statistics
 * Machine Learning
-* Data Visualization
 * Predictive Modeling
-* etc.
+* Natural language processing
+* item-item based collaborative filtering
 
 ### Technologies
 * Python
-* D3
+* NumPy
 * Pandas
+* NLTK
+* Selenium
+* Scrapy 
+* Google Colab
 * Jupyter notebook
 
 ## Project Description
@@ -28,16 +31,15 @@ The purpose of this project is to use machine learning that powers an applicatio
 
 
 ## Getting Started
-
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
-5. Follow setup [instructions](Link to file)
+2. Raw Data is being kept [here](https://github.com/mishaberrien/recipe_recommendation_system/tree/master/data-sample) within this repo.
+3. Data processing/transformation scripts are being kept [here](https://github.com/mishaberrien/recipe_recommendation_system/tree/master/results)
+4. In order to run the scripts you'll need to change the data location name to the ```data-sample``` folder. 
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](#)
-* [Notebook/Markdown/Slide DeckTitle](#)
+* [Executive Summary](#)
+* [Technical Notebook](#)
+* [Companion App](#)
 * [Blog Post](#)
 
 ---
