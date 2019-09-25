@@ -37,9 +37,9 @@ The purpose of this project is to use machine learning to power an application t
 4. In order to run the scripts you'll need to change the data location name to the ```data-sample``` folder. 
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Executive Summary](#)
-* [Technical Notebook](#)
-* [Companion App](#)
+* [Executive Summary](https://github.com/mishaberrien/recipe_recommendation_system/blob/master/executive-summary-recipe-recommendations.pdf)
+* [Technical Notebook](https://mishaberrien.com/recipe_recommendation_system/)
+* [Companion App](https://github.com/mishaberrien/your-personal-cookbook-webapp)
 * [Blog Post](#)
 
 ---
