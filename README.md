@@ -39,7 +39,7 @@ The purpose of this project is to use machine learning to power an application t
 ## Featured Notebooks/Analysis/Deliverables
 * [Executive Summary](https://github.com/mishaberrien/recipe_recommendation_system/blob/master/executive-summary-recipe-recommendations.pdf)
 * [Technical Notebook](https://mishaberrien.com/recipe_recommendation_system/)
-* [Companion App](https://github.com/mishaberrien/your-personal-cookbook-webapp)
+* [Companion App](https://github.com/mishaberrien/your_personal_cookbook_webapp)
 * [Blog Post](#)
 
 ---
